@@ -1,0 +1,15 @@
+.title {
+    font: 30px bold;
+    margin: 0 0 20px 0;
+}
+
+.formBox {
+    top: 26%;
+    position: relative
+}
+
+.wrap {
+    height: 100%;
+    width: 100%;
+    position: absolute
+}

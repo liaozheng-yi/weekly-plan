@@ -1,0 +1,38 @@
+.layout{
+    max-height: 100vh;
+    min-height: 100vh;
+}
+.header{
+    background: #bfbfbf;
+    height: 8vh;
+}
+.drag{
+    z-index: 1;
+    position: fixed;
+    border:1px solid #bfbfbf;
+    font-size: 16px;
+    line-height: 16px;
+    cursor: pointer;
+    
+}
+.title{
+    color: #1890FF;
+    height: inherit;
+    line-height: inherit;
+}
+.main{
+    height: 84vh;
+}
+.fatherHeight{
+    height: inherit;
+}
+.wholeCard{
+    max-height: 84vh;
+    min-height: 84vh;
+}
+.footer{
+    background:#bfbfbf;
+    height: 8vh;
+    padding: 1vh 0 3vh 0;
+}
+

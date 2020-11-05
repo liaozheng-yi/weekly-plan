@@ -1,0 +1,18 @@
+@import '~antd/dist/antd.css';
+
+/*style reset start*/
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+.ant-tree .ant-tree-treenode{
+    width: 100%;
+}
+.ant-tree .ant-tree-node-content-wrapper{
+    width: 100%;
+}
+/*style reset end*/
+.hidden{
+    overflow: hidden;
+}
+
+

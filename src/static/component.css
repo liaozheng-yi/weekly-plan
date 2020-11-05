@@ -1,0 +1,72 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.weekdaysCard {
+    min-height: 42vh;
+    max-height: 42vh;
+}
+
+.weekdaysCard:hover .halfdayBtn {
+    display: block;
+}
+
+.halfdayBtn {
+    display: none;
+    margin: 8px 0;
+}
+
+.workItem {
+    position: relative;
+    width: inherit;
+    margin: 8px 0;
+}
+
+.workItemBtn {
+    display: none;
+    position: absolute;
+    right: 10px;
+    font-size: 1.2em;
+}
+
+.workItem:hover .workItemBtn {
+    display: inline-block;
+}
+
+.weekdaysCard .ant-card-head {
+    position: relative;
+    height: 4vh;
+}
+
+.weekdaysCard .ant-card-head-title {
+    position: absolute;
+    padding: 0 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.weekdaysCard .ant-card-body {
+    height: 35vh;
+    padding: 8px;
+    overflow: hidden;
+}
+
+@media all and (min-width:768px){
+    .weekdaysCard .ant-card-body{
+        padding: 16px;
+    }
+}
+
+.tree{
+    position: relative;
+}
+.tree:hover .treeBtn{
+    display: inline-block;
+}
+.treeBtn{
+    display: none;
+    position: absolute;
+    right: 8px;
+}
