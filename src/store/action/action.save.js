@@ -11,7 +11,9 @@ function useSave() {
             url:'/save',
             method:'post',
             data:{
-                ...data,
+                year:data.year,
+                week:data.week,
+                weekdays:data.weekdays,
                 wholeWeek:newWholeWeek,
             }
         }).then(res=>{
